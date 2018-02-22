@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.volkangurbuz.lightme.LightActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@string/font_family_regular"
+        android:text="LightMe"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Switch
+        android:id="@+id/runSwitch"
+        android:layout_width="wrap_content"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Off " />
+
+
+</RelativeLayout>
